@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que dice "Mi trabajo de sueños". -->
+    <title>Mi trabajo de sueños</title>
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f6; /* Concepto: Background */
+            color: #333; /* Concepto: Color */
+            margin: 0; /* Concepto: Margin */
+            padding: 20px; /* Concepto: Padding */
+        }
+
+        /* Selector de Clase para el contenedor principal */
+        .container {
+            max-width: 900px; /* Concepto: Width (máximo) */
+            margin: 20px auto; /* Centrar el contenedor */
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            /* box-shadow: 0 5px 15px rgba(0,0,0,0.08); <-- Sombra eliminada */
+        }
+
+        /* Selector de ID para el título principal */
+        #titulo-principal {
+            color: #2c5282; /* Un color azul oscuro */
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+
+        /* Selector de Clase para agrupar secciones */
+        .seccion {
+            margin-bottom: 30px; /* Espacio entre secciones */
+        }
+        
+        h2 {
+            color: #2d3748;
+            /* border-left: 4px solid #2c5282; <-- Barra eliminada */
+            /* padding-left: 10px; <-- Padding eliminado */
+        }
+
+        /* Selector de Clase para resaltar texto con <span> */
+        .destacado {
+            color: #2c5282; /* Concepto: Color */
+            font-weight: bold;
+            background-color: #e2e8f0; /* Concepto: Background */
+            padding: 2px 5px; /* Concepto: Padding */
+            border-radius: 4px;
+        }
+
+        /* Estilos para la lista de razones */
+        ul {
+            /* list-style-type: "✅ "; <-- Estilo de viñeta eliminado */
+            list-style-type: disc; /* Usando puntos normales */
+            padding-left: 40px; /* Ajuste de padding para puntos estándar */
+        }
+
+        li {
+            margin-bottom: 10px; /* Margin */
+            line-height: 1.5;
+        }
+
+        /* Estilos para la tabla de pasos */
+        table {
+            width: 100%; /* Concepto: Width */
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e0;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f7fafc; /* Fondo para encabezados */
+            color: #4a5568;
+        }
+
+        /* Estilos para la imagen */
+        .imagen-saas {
+            width: 100%; /* La imagen se ajusta al contenedor */
+            height: auto; /* Concepto: Height (automático) */
+            max-width: 700px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Uso de <div> para agrupar secciones (el contenedor principal) -->
+    <div class="container">
+
+        <h1 id="titulo-principal">Mi Trabajo de Sueños</h1>
+
+        <!-- <div> para la primera sección -->
+        <div class="seccion">
+            <h2>Mi Futuro como Emprendedor de SaaS</h2>
+            <!-- Párrafo que describe el trabajo -->
+            <p>
+                Mi trabajo soñado es ser un emprendedor y fundador de mi propia compañía de SaaS (Software as a Service).
+                El objetivo es crear un producto digital útil que la gente ame usar y que pueda generar
+                <!-- Uso de <span> para resaltar texto -->
+                <span class="destacado">ingresos pasivos</span>.
+                Esto me daría la libertad de manejar mi propio tiempo, reducir el estrés y dedicarme a lo que me apasiona:
+                crear soluciones con <span class="destacado">diseños bonitos</span> y funcionales.
+            </p>
+        </div>
+
+        <!-- <div> para la sección de razones -->
+        <div class="seccion">
+            <h2>Razones Principales</h2>
+            <!-- Lista de al menos tres razones (etiquetas ul y li) -->
+            <ul>
+                <li><strong>Libertad Financiera:</strong> Un SaaS exitoso puede generar ingresos recurrentes y pasivos, dándome estabilidad.</li>
+                <li><strong>Independencia y Flexibilidad:</strong> Ser mi propio jefe me permitiría definir mis horarios y lugar de trabajo.</li>
+                <li><strong>Creatividad e Impacto:</strong> Podría diseñar y construir una herramienta desde cero, solucionando un problema real para miles de personas.</li>
+                <li><strong>Sin Estrés Corporativo:</strong> Evitar la burocracia y el estrés innecesario de un trabajo tradicional.</li>
+            </ul>
+        </div>
+
+        <!-- <div> para la sección de la tabla -->
+        <div class="seccion">
+            <h2>Pasos para Obtener ese Trabajo</h2>
+            <!-- Una tabla que muestre los pasos o requisitos -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Paso / Requisito</th>
+                        <th>Descripción Breve</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Educación y Habilidades</td>
+                        <td>Aprender a programar (ej. JavaScript, Python) y fundamentos de diseño UX/UI.</td>
+                    </tr>
+                    <tr>
+                        <td>2. Identificar un Nicho</td>
+                        <td>Encontrar un problema específico en un mercado que no esté bien resuelto.</td>
+                    </tr>
+                    <tr>
+                        <td>3. Construir un MVP</td>
+                        <td>Desarrollar un "Producto Mínimo Viable" para validar la idea con usuarios reales.</td>
+                    </tr>
+                    <tr>
+                        <td>4. Lanzamiento y Marketing</td>
+                        <td>Aprender sobre marketing digital para atraer a los primeros clientes.</td>
+                    </tr>
+                    <tr>
+                        <td>5. Iterar y Crecer</td>
+                        <td>Escuchar a los usuarios, mejorar el producto y escalar el negocio.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- <div> para la sección de la imagen -->
+        <div class="seccion">
+            <h2>Visualizando el Éxito</h2>
+            <!-- Uso de <img> para incluir una imagen relacionada -->
+            <img src="descarga.webp"
+                 alt="Imagen de un emprendedor de SaaS exitosa"
+                 class="imagen-saas">
+        </div>
+
+    </div> <!-- Fin del .container -->
+
+</body>
+</html>
